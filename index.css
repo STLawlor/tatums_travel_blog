@@ -2,13 +2,15 @@
     font-family: Arial;
 }
 
+/* section styling */
+
 header {
     background-image: url(https://t3.ftcdn.net/jpg/02/55/60/66/360_F_255606647_svfME7k8KAWkcd8AUXRxljThceS1Z5jI.jpg);
     background-size: cover;
-    height: 20rem;
     color: #FDF7D2;
+    padding: 5%;
+    text-shadow: 2px 2px 6px #614340;
 }
-
 
 body {
     background-color: rgb(248, 162, 113);
@@ -16,21 +18,36 @@ body {
 
 article {
     background-image: linear-gradient(rgb(248, 162, 113), #FE843B);
+    padding: 3%;
 }
 
-
-
-h1, h3  {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+header, img, article {
+    border-radius: 0.3em;
+    margin-bottom: 3%;
+    box-shadow: 2px 2px 6px #2e211f77;
 }
 
-/* hyperlink styling */
+/* specified styling */
+
+img {
+    display: block;
+    height: 20%;
+    border: #614340;
+}
 
 a {
     color: #614340;
     text-decoration: none;
 }
 
+h1, h3  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 a:hover {
     color: #2e211f;
-  }
+}
+
+.subheading {
+    border-bottom: 2px solid #614340;
+}
