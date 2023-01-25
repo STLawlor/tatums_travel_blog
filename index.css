@@ -1,0 +1,36 @@
+* {
+    font-family: Arial;
+}
+
+header {
+    background-image: url(https://t3.ftcdn.net/jpg/02/55/60/66/360_F_255606647_svfME7k8KAWkcd8AUXRxljThceS1Z5jI.jpg);
+    background-size: cover;
+    height: 20rem;
+    color: #FDF7D2;
+}
+
+
+body {
+    background-color: rgb(248, 162, 113);
+}
+
+article {
+    background-image: linear-gradient(rgb(248, 162, 113), #FE843B);
+}
+
+
+
+h1, h3  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* hyperlink styling */
+
+a {
+    color: #614340;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2e211f;
+  }
